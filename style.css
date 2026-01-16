@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Comic Sans MS", sans-serif;
 }
 
 body {
@@ -34,7 +34,9 @@ header h1 {
   padding: 10px;
   margin-top: 10px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #c58500;
+  background-color: #514575;
+  color: #ffc451;
 }
 
 .problem-section button {
@@ -57,7 +59,7 @@ header h1 {
   flex: 1;
   background: #514575;
   padding: 20px;
-  border-radius: 30px;
+  border-radius: 30px;;
 }
 
 .pros-box h2 {
@@ -77,6 +79,7 @@ header h1 {
   padding: 15px;
   border-radius: 15px;
   border: 1px solid #c58500;
+    background-color: #a79dda
 }
 
 .pros-box button {

@@ -20,15 +20,10 @@ But it will make your thoughts stop screaming.
 ## Built with
 
 HTML
-
 CSS 
-
 JavaScript 
-
 localStorage 
-
 Netlify 
-
 Gemini AI 
 
 
@@ -38,3 +33,22 @@ I’m interested in building tools that help people think clearly, especially in
 This is a small prototype of a bigger idea I have.
 
 Also… I overthink. So I built something about it.
+
+# How to Run This Project Locally
+
+You don’t need to install anything special to run this project.
+
+1. Download or clone this repository
+
+2. Open the project folder
+
+3. Double-click index.html
+
+The app will open in your browser.
+
+#Screenshots
+
+![when-in-crisisl](screenshots/ss1.png)
+![when-in-crisisl](screenshots/ss2.png)
+![when-in-crisisl](screenshots/ss3.png)
+

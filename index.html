@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crisis Decision Mini Tool</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- Header -->
+    <header>
+      <h1>🧠 Crisis Decision Mini Tool</h1>
+      <p>Think clearly. Weigh your options. Make calmer decisions.</p>
+    </header>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <h2>Your Decision</h2>
+
+        <textarea placeholder="What are you trying to decide?" rows="4"></textarea>
+        <br>
+        <button>Save Problem</button>
+    </section>
+
+
+
+    <!-- Pros & Cons Section -->
+    <section class="pros-cons-section">
+
+  <!-- PROS -->
+  <div class="pros-box">
+    <h2>✅ Pros</h2>
+
+    <input type="text" placeholder="Enter a pro">
+    
+    <select>
+      <option value="1">1 (Low)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (High)</option>
+    </select>
+
+    <button>Add Pro</button>
+
+    <ul>
+      <!-- pros list items later -->
+    </ul>
+  </div>
+
+
+  <!-- CONS -->
+  <div class="cons-box">
+    <h2>❌ Cons</h2>
+
+    <input type="text" placeholder="Enter a con">
+
+    <select>
+      <option value="1">1 (Low)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (High)</option>
+    </select>
+
+    <button>Add Con</button>
+
+    <ul>
+      <!-- cons list items later -->
+    </ul>
+  </div>
+
+</section>
+
+
+    <!-- Result Section -->
+    <section class="result-section">
+  <h2>Result</h2>
+
+  <p>Total Pros: <span>0</span></p>
+  <p>Total Cons: <span>0</span></p>
+
+  <h3>Decision: Add pros and cons to see a suggestion
+</h3>
+
+  <button>Clear / Reset</button>
+</section>
+<footer style="margin-top:20px; text-align:center; font-size:14px; opacity:0.7;">
+  This tool supports clearer thinking. It does not replace personal or professional judgment.
+</footer>
+
+
+  </div>
+
+</body>
+</html>

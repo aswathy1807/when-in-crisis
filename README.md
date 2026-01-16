@@ -1,5 +1,5 @@
 # When in crisis...
-## I usually call my mom. But somethimes even mom can't help.
+## I usually call my mom. But sometimes even mom can't help.
 
 So i made this!
 
@@ -19,12 +19,17 @@ But it will make your thoughts stop screaming.
 
 ## Built with
 
-1.HTML
-2.CSS 
-3.JavaScript 
-4.localStorage 
-5.Netlify 
-6.Gemini AI 
+ 1.HTML
+ 
+ 2.CSS
+ 
+ 3.JavaScript
+ 
+ 4.localStorage 
+ 
+ 5.Netlify 
+ 
+ 6.Gemini AI 
 
 
 ## Why I made this

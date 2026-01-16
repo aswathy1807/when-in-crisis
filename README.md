@@ -19,12 +19,12 @@ But it will make your thoughts stop screaming.
 
 ## Built with
 
-HTML
-CSS 
-JavaScript 
-localStorage 
-Netlify 
-Gemini AI 
+1.HTML
+2.CSS 
+3.JavaScript 
+4.localStorage 
+5.Netlify 
+6.Gemini AI 
 
 
 ## Why I made this

@@ -5,14 +5,14 @@
 
 body {
   margin: 0;
-  background: #f4f7fb;
+  background: #201d39;
   display: flex;
   justify-content: center;
   padding: 30px;
 }
 
 .app-container {
-  background: white;
+  background: #ffc451;
   max-width: 900px;
   width: 100%;
   padding: 25px;
@@ -42,8 +42,8 @@ header h1 {
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
-  background: #4f46e5;
-  color: white;
+  background: #514575;
+  color: #ffc451;
   cursor: pointer;
 }
 
@@ -55,17 +55,17 @@ header h1 {
 
 .pros-box, .cons-box {
   flex: 1;
-  background: #f9fafb;
-  padding: 15px;
-  border-radius: 12px;
+  background: #514575;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .pros-box h2 {
-  color: #16a34a;
+  color: #aadbbc;
 }
 
 .cons-box h2 {
-  color: #dc2626;
+  color: #eb9191;
 }
 
 .pros-box input, 
@@ -74,36 +74,36 @@ header h1 {
 .cons-box select {
   width: 100%;
   margin-top: 8px;
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #c58500;
 }
 
 .pros-box button {
-  background: #22c55e;
-  color: white;
+  background: #65d08d;
+  color: #201d39;
 }
 
 .cons-box button {
-  background: #ef4444;
-  color: white;
+  background: #eb9191;
+  color: #201d39;
 }
 
 .pros-box button,
 .cons-box button {
-  margin-top: 10px;
-  padding: 8px;
+  margin-top: 15px;
+  padding: 10px;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
+  border-radius: 30px;
+  cursor: url("cursor.png"), auto;
   width: 100%;
 }
 
 .result-section {
   margin-top: 30px;
-  background: #f1f5f9;
+  background: #a79dda;
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 15px;
   text-align: center;
 }
 
@@ -115,22 +115,8 @@ header h1 {
   margin-top: 10px;
   padding: 8px 16px;
   border: none;
-  border-radius: 6px;
+  border-radius: 40px;
   background: #0f172a;
-  color: white;
-  cursor: pointer;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-li {
-  margin: 6px 0;
-}
-
-button:hover {
-  opacity: 0.9;
-  transform: scale(1.02);
+  color: #ffc451;
+  cursor: url("cursor.png"), auto;
 }
